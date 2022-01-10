@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My portfolio
+# microverse-project1
 creating a portfolio website
  
 # Portfolio
@@ -12,7 +12,7 @@ creating a portfolio website
 > - about us page : information of creater and contact informations
 > the home page of this project look like this :
 
-![screenshot](images/screenshot.png)
+![screenshot](images\screenshot.png)
 
 ## Built With
 
@@ -21,7 +21,8 @@ creating a portfolio website
 
 ## Live Demo
 live demo will be add after finishing the project.
-- [Live Demo Link:](https://raw.githack.com/ZahraArshia/my-portfolio/mobile-version-skeleton/index.html)
+- [Live Demo Link: works page](https://rawcdn.githack.com/ZahraArshia/microverse-project1/79e1928e4f5921c693c1180bca1d5c1c0f3c0369/works.html)
+- [Live Demo Link: about us page](https://rawcdn.githack.com/ZahraArshia/microverse-project1/79e1928e4f5921c693c1180bca1d5c1c0f3c0369/about.html)
 
 ## Getting Started
 no specification or installation is needed to run this project. but you can modify and pesonalize it by changing the contect or adding lists.
@@ -39,4 +40,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is MIT licensed.
-
