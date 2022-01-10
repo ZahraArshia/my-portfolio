@@ -12,7 +12,7 @@ creating a portfolio website
 > - about us page : information of creater and contact informations
 > the home page of this project look like this :
 
-![screenshot](images/screenshot.png)
+![screenshot](images\screenshot.png)
 
 ## Built With
 
