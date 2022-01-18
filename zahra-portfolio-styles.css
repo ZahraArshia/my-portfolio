@@ -163,6 +163,7 @@ main {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  
 }
 
 @media screen and (min-width: 992px) {
@@ -247,9 +248,10 @@ main {
 
 
 .snapshot img{
-  max-width:100%;
-max-height:100%;
+  max-width: 100%;
+max-height: 100%;
 object-fit: scale-down;
+
 
 }
 
@@ -315,6 +317,7 @@ object-fit: scale-down;
   color: #344563;
   margin-top: 5%;
   margin-bottom: 5%;
+  max-width: 496px;
 }
 
 .tag {
