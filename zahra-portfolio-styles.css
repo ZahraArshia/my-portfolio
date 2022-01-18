@@ -14,7 +14,7 @@ header {
   align-items: center;
 }
 
-@media screen and (min-width: 385px) {
+@media screen and (min-width: 992px) {
   header {
     height: 72px;
   }
@@ -53,7 +53,7 @@ nav {
   background-image: url("images/Icon-Menu.svg");
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 992px) {
   .menu {
     display: flex;
     flex-direction: row;
@@ -87,39 +87,40 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("images/header-bg-mobile.svg");
   background-repeat: no-repeat;
   width: auto;
   min-height: 604px;
   background-size: contain;
+  margin-bottom: 5%;
 }
 
-@media screen and (min-width: 385px) {
+.leading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-image: url("images/Header-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.ending {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 280px;
+  background-image: url("images/Ending-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (min-width: 992px) {
   .home-page {
-    background-image: none;
     height: 100%;
     max-width: 100%;
     min-height: 721.46px;
   }
-  .leading {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    background-image: url("images/Header-bg.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  .ending {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    min-height: 280px;
-    background-image: url("images/Ending-bg.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
+  
 }
 
 .ending {
@@ -145,7 +146,7 @@ main {
   margin-left: 24px;
 }
 
-@media screen and (min-width: 385px) {
+@media screen and (min-width: 992px) {
   .title {
     height: 122px;
     margin-top: 24%;
@@ -164,7 +165,7 @@ main {
   color: #344563;
 }
 
-@media screen and (min-width: 385px) {
+@media screen and (min-width: 992px) {
   .content {
     max-width: 920px;
     font-size: 20px;
@@ -218,23 +219,38 @@ main {
   display: flex;
   flex-direction: column;
   height: fit-content;
-  margin: 10%;
+  margin: 6%;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+}
+
+.card2{
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  margin: 6%;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+@media screen and (min-width: 992px) {
+  .card2{
+    flex-direction: row-reverse;
+  }
 }
 
 .snapshot {
   margin: 4%;
   border-radius: 8px;
-  size: 50%;
-
+  align-self: center;
 }
 
-@media screen and (min-width: 385px) {
-  .snapshot{
-    max-width: 100%;
-    max-height: 100%;
-  }
+
+.snapshot img{
+  max-width:100%;
+max-height:100%;
+object-fit: scale-down;
+
 }
 
 .block {
@@ -257,7 +273,6 @@ main {
 .subfram {
   display: flex;
   flex-direction: row;
- 
   align-items: center;
   margin-bottom: 12px;
   
@@ -307,11 +322,8 @@ main {
   list-style: none;
   margin: 0.1px;
   padding: 0.1px;
-  justify-content: space-between;
   align-content: flex-start;
   flex-direction: row;
-  width: 203px;
-  height: 24px;
   margin-bottom: 5%;
 }
 
@@ -319,7 +331,7 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: fit-content;
+  width:fit-content;
   height: 24px;
   padding: 4px 12px;
   background: #ebebff;
@@ -329,6 +341,7 @@ main {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
+  margin: 8px;
   color: #6070ff;
 }
 
@@ -371,7 +384,7 @@ main {
 }
 
 
-@media screen and (min-width: 385px) {
+@media screen and (min-width: 993px) {
   .card{
     flex-direction: row;
   }
