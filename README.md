@@ -2,6 +2,7 @@
 
 # microverse-project1
 creating a portfolio website
+in the latest version, portfolio updated to be reponsive in all deslayes!
  
 # Portfolio
 
@@ -21,8 +22,7 @@ creating a portfolio website
 
 ## Live Demo
 live demo will be add after finishing the project.
-- [Live Demo Link: works page](https://rawcdn.githack.com/ZahraArshia/microverse-project1/79e1928e4f5921c693c1180bca1d5c1c0f3c0369/works.html)
-- [Live Demo Link: about us page](https://rawcdn.githack.com/ZahraArshia/my-portfolio/cbc4e0bc922300711036f46ea5d25038fb15fb12/works.html)
+[Live Demo Link : responsive version ](https://raw.githack.com/ZahraArshia/my-portfolio/responsive-version/zahra-portfolio.html)
 
 ## Getting Started
 no specification or installation is needed to run this project. but you can modify and pesonalize it by changing the contect or adding lists.
