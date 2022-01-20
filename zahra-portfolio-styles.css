@@ -317,6 +317,11 @@ main {
   color: #fff;
 }
 
+.button:active {
+  background: #2230d2;
+  color: #fff;
+}
+
 .about {
   display: flex;
   flex-direction: column;
