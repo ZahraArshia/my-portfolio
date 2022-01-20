@@ -1,9 +1,9 @@
 *,
 *::before,
 *::after {
-box-sizing: inherit;
-margin: 0;
-padding: 0;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -86,10 +86,6 @@ main {
   background-size: contain;
 }
 
-.ending {
-  width: 100%;
-}
-
 .box {
   display: flex;
   flex-direction: column;
@@ -167,16 +163,14 @@ main {
 .card {
   display: flex;
   flex-direction: column;
-  height: fit-content;
   margin: 6%;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
 
-.card2{
+.card2 {
   display: flex;
   flex-direction: column;
-  height: fit-content;
   margin: 6%;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -188,7 +182,7 @@ main {
   align-self: center;
 }
 
-.snapshot img{
+.snapshot img {
   max-width: 100%;
   max-height: 100%;
   object-fit: scale-down;
@@ -269,7 +263,7 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width:fit-content;
+  width: fit-content;
   height: 24px;
   padding: 4px 12px;
   background: #ebebff;
@@ -322,13 +316,13 @@ main {
   transform: translateY(4px);
 }
 
-.about{
+.about {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.about-me{
+.about-me {
   display: flex;
   flex-direction: column;
   width: auto;
@@ -337,21 +331,28 @@ main {
   margin-left: 10%;
 }
 
-.action2{
+.action2 {
   margin-left: 24px;
 }
 
-.skill-font{
+.skill-font {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
 }
 
 .dropdown-content {
+  display: none;
+}
+
+.disabled {
+  display: block;
+}
+
+.enabled {
   display: none;
 }
 
@@ -360,11 +361,11 @@ main {
   flex-direction: column;
 }
 
-.listfram:hover .disabled{
+.listfram:hover .disabled {
   display: none;
 }
 
-.listfram:hover .enabled{
+.listfram:hover .enabled {
   display: block;
 }
 
@@ -385,11 +386,6 @@ main {
   background: #f7f7f9;
   border-radius: 8px;
   min-width: 122px;
-}
-
-.skill{
-  width: 50%;
-  margin-left:none;
 }
 
 .skill {
@@ -419,7 +415,6 @@ main {
   min-height: 72px;
   border-bottom: 1px solid #dfe1e6;
   justify-content: space-between;
-
 }
 
 .listname {
@@ -441,14 +436,6 @@ main {
   background-repeat: no-repeat;
 }
 
-.disabled {
-  display: block;
-}
-
-.enabled {
-  display: none;
-}
-
 .listimg {
   margin-left: 3%;
   align-self: center;
@@ -464,7 +451,7 @@ main {
   margin-left: 3%;
 }
 
-.contact-form{
+.contact-form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -477,7 +464,7 @@ main {
   margin-top: 10%;
 }
 
-.contact-form-bg{
+.contact-form-bg {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -507,13 +494,12 @@ footer {
   align-items: center;
 }
 
-.contact-title{
+.contact-title {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
   text-align: center;
   color: #fff;
   margin-top: 10%;
@@ -554,7 +540,7 @@ input {
   font-size: 17px;
   line-height: 20px;
   color: #172b4d;
-  }
+}
 
 input:valid {
   border: 2px solid green;
@@ -580,19 +566,19 @@ textarea :valid {
   border: 2px solid green;
 }
 
-form ul{
+form ul {
   list-style: none;
   align-items: center;
 }
 
-input ::placeholder ,textarea ::placeholder {
+input ::placeholder,
+textarea ::placeholder {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
 }
-
 
 @media screen and (min-width: 992px) {
   header {
@@ -631,37 +617,41 @@ input ::placeholder ,textarea ::placeholder {
   .title {
     height: 122px;
     margin-top: 24%;
-    }
+  }
 
   .content {
     max-width: 920px;
     font-size: 20px;
-    }
+  }
 
-  .card{
+  .card {
     flex-direction: row;
-    }
+  }
 
-  .card2{
+  .card2 {
     flex-direction: row-reverse;
-    }
+  }
 
-  .about{
+  .about {
     flex-direction: row;
-    }
+  }
+
   .listfram:hover .dropdown-content {
     display: flex;
     flex-direction: row;
-    }
-  .skill li{
+  }
+
+  .skill li {
     flex-direction: column;
     height: 120px;
     min-width: 122px;
     justify-content: center;
-    }
-  input{
+  }
+
+  input {
     min-width: 447px;
   }
+  
   textarea {
     min-width: 447px;
   }
