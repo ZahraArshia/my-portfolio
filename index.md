@@ -13,33 +13,28 @@ its a template webpage designed with a web developing style.
 ```markdown
 _you can change this part of code to add list of your own skills_
 <div class="listfram ">
-                    <div class="listtag ">
-                        <p class="listname">Frameworks</p>
-                        <img src="images/Disabled-right.svg" class="disabled" alt="button">
-                    <img src="images/Disabled-down.svg" class="enabled" alt="button">
-                    </div>
-                    <ul class="skillul">
-                    </ul>
-                </div>
-                <div class="listfram ">
-                    <div class="listtag ">
-                        <p class="listname">Skills</p>
-                        <img src="images/Disabled-right.svg" class="disabled" alt="button">
-                    <img src="images/Disabled-down.svg" class="enabled" alt="button">
-                    </div>
-                    <ul class="skillul">
-                    </ul>
-                </div>
- `
-
+  <div class="listtag ">
+    <p class="listname">Frameworks</p>
+    <img src="images/Disabled-right.svg" class="disabled" alt="button">
+    <img src="images/Disabled-down.svg" class="enabled" alt="button">
+  </div>
+  <ul class="skillul">
+  </ul>
+</div>
+<div class="listfram ">
+  <div class="listtag ">
+    <p class="listname">Skills</p>
+    <img src="images/Disabled-right.svg" class="disabled" alt="button">
+    <img src="images/Disabled-down.svg" class="enabled" alt="button">
+  </div>
+  <ul class="skillul">
+  </ul>
+</div>
 ```
 ## Built With
 - HTML
 - CSS
 
-## preview 
-![screenshot](https://github.com/ZahraArshia/my-portfolio/blob/application-deploy/images/screenshot.png)
-
-## live demo
+## preview
 [Live Demo Link of responsive version ](https://raw.githack.com/ZahraArshia/my-portfolio/responsive-version/zahra-portfolio.html)
 
