@@ -11,8 +11,7 @@ its a template webpage designed with a web developing style.
 4. contact me page : an interface to communicate with me through comments
 
 ```markdown
-_ you can change this part of code to add list of your own skills:_
-`
+_you can change this part of code to add list of your own skills_
 <div class="listfram ">
                     <div class="listtag ">
                         <p class="listname">Frameworks</p>
@@ -39,7 +38,7 @@ _ you can change this part of code to add list of your own skills:_
 - CSS
 
 ## preview 
-![screenshot](https://github.com/ZahraArshia/my-portfolio/blob/mobile-version/images/screenshot.png)
+![screenshot](https://github.com/ZahraArshia/my-portfolio/blob/application-deploy/images/screenshot.png)
 
 ## live demo
 [Live Demo Link of responsive version ](https://raw.githack.com/ZahraArshia/my-portfolio/responsive-version/zahra-portfolio.html)
