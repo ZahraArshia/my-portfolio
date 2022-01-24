@@ -1,38 +1,46 @@
-## Welcome to GitHub Pages
+## Welcome to my portfolio
 
-You can use the [editor on GitHub](https://github.com/ZahraArshia/my-portfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+its a test to creat a github page for my-portfolio project
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### my portfolio featurs:
+its a template webpage designed with a web developing style.
+## this project contain:
+1. home page : introduction to developer
+2. works page : some example cards showing sample designes
+3. about me page : information of creater and contact informations
+4. contact me page : an interface to communicate with me through comments
 
 ```markdown
-Syntax highlighted code block
+_ you can change this part of code to add list of your own skills:_
+`
+<div class="listfram ">
+                    <div class="listtag ">
+                        <p class="listname">Frameworks</p>
+                        <img src="images/Disabled-right.svg" class="disabled" alt="button">
+                    <img src="images/Disabled-down.svg" class="enabled" alt="button">
+                    </div>
+                    <ul class="skillul">
+                    </ul>
+                </div>
+                <div class="listfram ">
+                    <div class="listtag ">
+                        <p class="listname">Skills</p>
+                        <img src="images/Disabled-right.svg" class="disabled" alt="button">
+                    <img src="images/Disabled-down.svg" class="enabled" alt="button">
+                    </div>
+                    <ul class="skillul">
+                    </ul>
+                </div>
+ `
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
+## Built With
+- HTML
+- CSS
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## preview 
+![screenshot](https://github.com/ZahraArshia/my-portfolio/blob/mobile-version/images/screenshot.png)
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ZahraArshia/my-portfolio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## live demo
+[Live Demo Link of responsive version ](https://raw.githack.com/ZahraArshia/my-portfolio/responsive-version/zahra-portfolio.html)
 
