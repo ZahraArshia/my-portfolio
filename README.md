@@ -12,7 +12,7 @@ Adding contents to both Mobile and Desktop versions
 > - A Text area where to add text
 > - And a warning when the information is not valid
 
-![screenshot](.png)
+![screenshot](https://github.com/ZahraArshia/my-portfolio/blob/form-validation/images/form-validation-screenshot.png)
 
 ## Built With
 
