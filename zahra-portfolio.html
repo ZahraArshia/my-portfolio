@@ -232,19 +232,21 @@
           <section class="wrapper">
             <h2 class="contact-title">Contact me</h2>
         <p class="content-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-        <form action="https://formspree.io/f/mlezglbj" method="post" id="comment">
+        <form action="https://formspree.io/f/mlezglbj" method="post" id="form">
             <ul>
                 <li><input type="text" name="name" id="name" placeholder="your name here" required minlength="1" maxlength="30"></li>
                 <li><input type="email" name="email" id="email" placeholder="your email here" required></li>
+                <p class="warning" id="warning"></p>      
                 <li><textarea form="comment" id="msg" name="msg" placeholder="add your comment here" required minlength="1" maxlength="500"></textarea></li>
             </ul>
-            <button class="button" type="submit">Get In Touch</button>
+            <button class="button" id="submit-btn" type="submit">Get In Touch</button>
         </form>
         
           </section>
 
         </footer>
     </main>
+    <script src="script/validation-script.js"></script>
 </body>
 
 </html>
