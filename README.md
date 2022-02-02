@@ -1,24 +1,24 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# microverse-project1
-creating a portfolio website
-in the latest version, portfolio updated to be reponsive in all deslayes!
+# microverse-portofolio
+Adding contents to both Mobile and Desktop versions 
  
-# Portfolio
+# Portfolio: Validate-contact-form
 
-> its a template webpage designed with a web developing style. 
+> its a webpage designed by implementing the forms on it. 
 > this project contain:
-> - home page : introduction to developer
-> - works page : some example cards showing sample designes
-> - about us page : information of creater and contact informations
-> the home page of this project look like this :
+> - A Fullname input.
+> - An Email input
+> - A Text area where to add text
+> - And a warning when the information is not valid
 
-![screenshot](https://github.com/ZahraArshia/my-portfolio/blob/mobile-version/images/screenshot.png)
+![screenshot](.png)
 
 ## Built With
 
 - HTML
 - CSS
+- JavaScript
 
 ## Live Demo
 live demo will be add after finishing the project.
@@ -32,6 +32,11 @@ no specification or installation is needed to run this project. but you can modi
 👤 **Zahra**
 
 - GitHub: [@githubhandle](https://github.com/ZahraArshia)
+
+👤 **Moise Mulungu**
+
+- GitHub: [@githubhandle](https://github.com/moise-mulungu)
+
 
 ## Show your support
 
