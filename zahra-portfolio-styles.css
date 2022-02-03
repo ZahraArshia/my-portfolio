@@ -686,6 +686,12 @@ form ul {
   align-items: center;
 }
 
+.warning {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  color: red;
+}
+
 input ::placeholder,
 textarea ::placeholder {
   font-family: 'Poppins', sans-serif;
