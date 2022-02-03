@@ -6,6 +6,113 @@
   padding: 0;
 }
 
+.overlay {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(117, 117, 226, 0.5);
+  pointer-events: none;
+}
+
+.popup {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 5%;
+  margin: 6%;
+  overflow: auto;
+}
+
+.popup-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.popup-title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.popup-close {
+  font-size: 2.5rem;
+  color: #67798e;
+  cursor: pointer;
+}
+
+#popup-desktop-img {
+  display: none;
+  align-self: center;
+}
+
+.popup-more {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-content {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.popup-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-bottons {
+  display: flex;
+  flex-direction: row;
+}
+
+.popup-button {
+  width: 190px;
+  padding: 6px;
+  height: 48px;
+  margin: 5%;
+  background-color: #fff;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  transition: 0.3s;
+}
+
+.popup-button:hover {
+  background: #6070ff;
+  box-shadow: 0.01px 8px 16px rgba(64, 83, 252, 0.24);
+  color: #fff;
+}
+
+.pop-upbutton:active {
+  background: #2230d2;
+  color: #fff;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -594,6 +701,23 @@ textarea ::placeholder {
 }
 
 @media screen and (min-width: 992px) {
+  .popup-more {
+    flex-direction: row;
+  }
+
+  #popup-desktop-img {
+    display: block;
+  }
+
+  #popup-mobile-img {
+    display: none;
+  }
+
+  .popup-box {
+    display: flex;
+    flex-direction: column;
+  }
+
   header {
     height: 72px;
   }

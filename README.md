@@ -1,31 +1,28 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # microverse-portofolio
-Adding contents to both Mobile and Desktop versions 
+Creating pop-up window for both Mobile and Desktop versions 
  
-# Portfolio: Validate-contact-form
+# Portfolio: Pop-up window
 
 > its a webpage designed by implementing the forms on it. 
 > this project contain:
-> - A Fullname input.
-> - An Email input
-> - A Text area where to add text
-> - And a warning when the information is not valid
+> - A pop-up window for Mobile version.
+> - A pop-up window for Desktop version
+> - Using buttons to access the pop-ups
 
-![screenshot](https://github.com/ZahraArshia/my-portfolio/blob/form-validation/images/form-validation-screenshot.png)
+![screenshot](images/popUp-screenshot.png)
 
 ## Built With
 
 - HTML
 - CSS
 - JavaScript
+- Visual Studio Code
 
 ## Live Demo
 live demo will be add after finishing the project.
 [Live Demo Link : responsive version ](https://raw.githack.com/ZahraArshia/my-portfolio/responsive-version/zahra-portfolio.html)
-
-## Getting Started
-no specification or installation is needed to run this project. but you can modify and pesonalize it by changing the contect or adding lists.
 
 ## Authors
 
