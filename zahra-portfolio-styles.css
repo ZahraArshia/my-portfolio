@@ -113,7 +113,6 @@
   color: #fff;
 }
 
-
 header {
   display: flex;
   flex-direction: row;
@@ -703,10 +702,6 @@ textarea ::placeholder {
 
 @media screen and (min-width: 992px) {
   .popup-more {
-    flex-direction: row;
-  }
-
-  .popup-box {
     flex-direction: row;
   }
 
