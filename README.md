@@ -1,17 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # microverse-portofolio
-Creating pop-up window for both Mobile and Desktop versions 
+Implementing the Browser Data Storage 
  
-# Portfolio: Pop-up window
+# Portfolio: Preserve Data
 
-> its a webpage designed by implementing the forms on it. 
-> this project contain:
-> - A pop-up window for Mobile version.
-> - A pop-up window for Desktop version
-> - Using buttons to access the pop-ups
+> its a webpage designed by implementing the browser data storage. 
+> this project contains:
+> - A reset button.
+> - A Get in touch button
+> - Local storage method.
 
-![screenshot](images/popUp-screenshot.png)
+![screenshot](images/data-storage-screenshot.png)
 
 ## Built With
 
