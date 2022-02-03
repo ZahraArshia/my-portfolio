@@ -23,3 +23,7 @@ form.addEventListener('submit', () => {
   data.message = form.msg.value;
   localStorage.setItem('data', JSON.stringify(data));
 });
+
+form.addEventListener('reset', () => {
+  window.localStorage.clear();
+});
