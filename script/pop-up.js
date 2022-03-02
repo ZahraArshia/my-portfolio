@@ -2,12 +2,14 @@ const overlay = document.getElementById('overlay');
 const popup = document.getElementById('popup');
 
 const modals = [{
-  title: 'Tonic',
+  title: 'Mchine Learning Course',
   text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and .",
-  mobileImage: 'images/card1.svg',
-  desktopImage: 'images/Snapshoot-Portfolio1.svg',
+  mobileImage: 'images/mobile.png',
+  desktopImage: 'images/mobile.png',
   tech: ['html', 'css', 'javaScript'],
-  details: ['CANOPY', 'Back End Dev', 2018],
+  details: ['Microverse', 'front End Dev', 2022],
+  seeLive:'https:zahraarshia.github.io/machin-learning-online-courses/',
+  seeSource: 'https:github.com/ZahraArshia/machin-learning-online-courses',
 },
 {
   title: 'Multi-Post Stories',
@@ -16,6 +18,8 @@ const modals = [{
   desktopImage: 'images/Snapshoot-Portfolio2.svg',
   tech: ['html', 'css', 'javaScript'],
   details: ['CANOPY', 'Back End Dev', 2018],
+  seeLive:'',
+  seeSource: '',
 },
 {
   title: 'Facebook 360',
@@ -24,6 +28,8 @@ const modals = [{
   desktopImage: 'images/Snapshoot-Portfolio3.svg',
   tech: ['html', 'css', 'javaScript'],
   details: ['CANOPY', 'Back End Dev', 2018],
+  seeLive:'',
+  seeSource: '',
 },
 {
   title: 'Uber Navigation',
@@ -32,6 +38,8 @@ const modals = [{
   desktopImage: 'images/Snapshoot-Portfolio4.svg',
   tech: ['html', 'css', 'javaScript'],
   details: ['CANOPY', 'Back End Dev', 2018],
+  seeLive:'',
+  seeSource: '',
 }];
 
 function popupWin(order) {
@@ -54,6 +62,8 @@ function popupWin(order) {
   <li>${modals[order].tech[2]}</li>
   </ul>`;
   document.querySelector('.popup-content').innerHTML = `<p class="popup-contect">${modals[order].text}</p>`;
+  document.querySelector('.popup-bottons').innerHTML = `<button class="popup-button" onclick="window.location.href='${modals[order].seeLive}';">See Live <img src="images/popup-live.svg" alt="see live version of the page"></button>
+  <button class="popup-button" onclick="window.location.href='${modals[order].seeSource}';">See Source <img src="images/popup-GitHub.svg" alt="see the github source code"></button>`;
 }
 
 const btn = document.querySelectorAll('.button');

@@ -37,8 +37,8 @@
         <div class="popup-box">
           <div class="popup-tech"></div>
           <div class="popup-bottons">
-            <button class="popup-button">See Live <img src="images/popup-live.svg" alt="see live version of the page"></button>
-            <button class="popup-button">See Source <img src="images/popup-GitHub.svg" alt="see the github source code"></button>
+            <!-- <button class="popup-button">See Live <img src="images/popup-live.svg" alt="see live version of the page"></button>
+            <button class="popup-button">See Source <img src="images/popup-GitHub.svg" alt="see the github source code"></button> -->
           </div>
         </div>
       </div>
@@ -47,11 +47,20 @@
     <header>
         <a href="#" class="logo">mylogo</a>
         <nav> 
-          <div class="hamburger"></div>  
+          <div id="hamburger" class="hamburger"></div>
+          <ul id="hamburgerDisplay">
+            <img id="hamburgerClose" src="https://img.icons8.com/external-free-is-layf-royyan-wijaya/24/000000/external-close-revamp-3-free-is-layf-royyan-wijaya.png" alt="close"/>
+            <li><a id="menuWorks" href="#works">Our Work</a></li>
+            <hr>
+            <li><a id="menuAbout" href="#about">About</a></li>
+            <hr>
+            <li><a id="menuContact" href="#contactMe">Contact</a></li>
+            <hr>
+          </ul>
             <ul class="menu">
-                <li><a href="#">Our Work</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#works">Our Work</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contactMe">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -76,19 +85,19 @@
                 </div>
             </div>
         </section>
-        <section class="works">
+        <section id="works" class="works">
           <div class="card">
-            <div class="snapshot"><img src="images/Snapshoot-Portfolio1.svg" alt="tonic"></div>
+            <div class="snapshot"><img src="images/desktop.png" alt="tonic"></div>
             <div class="block">
-                <h1>Tonic</h1>
+                <h1>Mchine Learning Course</h1>
                 <div class="subfram">
-                    <p class="sub1">CANOPY</p>
+                    <p class="sub1">Microverse</p>
                     <div class="circle"></div>
-                    <p class="sub2">Back End Dev</p>
+                    <p class="sub2">Front End Dev</p>
                     <div class="circle"></div>
-                    <p class="sub2">2015</p>
+                    <p class="sub2">2022</p>
                 </div>
-                <div class="normal">A daily selection of privately personalized reads; no accounts or sign-ups required.</div>
+                <div class="normal">A template for machin learning online courses event, which is builed from scratch using CSS and JavaScript without using any framework or prebuiled design.</div>
                 <ul class="tag">
                     <li>html</li>
                     <li>css</li>
@@ -185,7 +194,7 @@
       </div>
   </div>
         </section>
-        <section class="about">
+        <section id="about" class="about">
           <div class="about-me">
             <div class="box">
               <h1 class="title">About<br>Myself</h1>
@@ -250,25 +259,26 @@
         </div>
        
         </section>
-        <footer>
+        <footer id="contactMe">
           <section class="wrapper">
             <h2 class="contact-title">Contact me</h2>
         <p class="content-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
         <form action="https://formspree.io/f/mlezglbj" method="post" id="form">
             <ul>
-                <li><input type="text" name="name" id="name" placeholder="your name here" required minlength="1" maxlength="30"></li>
-                <li><input type="email" name="email" id="email" placeholder="your email here" required></li>    
+                <li><input type="text" name="name" id="name" placeholder="your name here" aria-label="name" required minlength="1" maxlength="30"></li>
+                <li><input type="email" name="email" id="email" placeholder="your email here" aria-label="email" required></li>    
                 <li><textarea id="msg" name="msg" placeholder="add your comment here" required minlength="1" maxlength="500"></textarea></li>
             </ul>
             <p class="warning" id="warning"></p> 
             <button class="form-button" id="submit-btn" type="submit">Get In Touch</button>
-            <button class="form-button" id="reset-btn" type="reset">Reset Data</button>
+            <!-- <button class="form-button" id="reset-btn" type="reset">Reset Data</button> -->
         </form>
         
           </section>
 
         </footer>
     </main>
+    <script src="./script/menu.js"></script>
     <script src="script/dataStorage.js"></script>
     <script src="script/pop-up.js"></script>
     <script src="script/validation-script.js"></script>

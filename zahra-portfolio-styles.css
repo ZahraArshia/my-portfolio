@@ -28,8 +28,8 @@
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
-  padding: 5%;
-  margin: 6%;
+  padding: 2%;
+  margin: 2%;
   overflow: auto;
 }
 
@@ -84,6 +84,7 @@
 }
 
 .popup-button {
+  display: flex;
   width: 190px;
   padding: 6px;
   height: 48px;
@@ -100,6 +101,8 @@
   letter-spacing: 0.03em;
   color: #396df2;
   transition: 0.3s;
+  align-items: center;
+  justify-content: center;
 }
 
 .popup-button:hover {
@@ -152,6 +155,39 @@ nav {
   width: 24px;
   float: right;
   background-image: url("images/Icon-Menu.svg");
+}
+
+#hamburgerDisplay {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top : 0 ;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #6070ff;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  padding: 5%;
+  list-style: none;
+}
+
+#hamburgerDisplay li {
+  margin: 3% 2%;
+  padding: 2%;
+}
+
+#hamburgerDisplay a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+#hamburgerClose {
+  align-self: right;
+  margin: 3%;
+  width: 24px;
+  height: 24px;
 }
 
 main {
@@ -301,6 +337,7 @@ main {
   display: flex;
   flex-direction: column;
   margin: 4%;
+  width: 100%;
 }
 
 .block h1 {
@@ -772,6 +809,10 @@ textarea ::placeholder {
   }
 
   .hamburger {
+    display: none;
+  }
+
+  #hamburgerDisplay {
     display: none;
   }
 
